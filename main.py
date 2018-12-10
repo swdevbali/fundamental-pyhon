@@ -1,3 +1,11 @@
+from modularization import hitung_segitiga, hitung_harga_diskon
+from modularization import *
+
+luas_segitiga = 10
+print('MAIN', luas_segitiga)
+exit(0)
+print('Main', hitung_segitiga(10, 3))
+print('Main', hitung_harga_diskon(1000000, .1))
 """
 Ini komentar panjaang
 """
@@ -64,4 +72,4 @@ for h in hari:
 
 #SAMA dengan di atas
 for h in range(0, len(hari)-1):
-    print(hari(h))
+    print(hari[h])
